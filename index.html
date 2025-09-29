@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Company</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">IT Company</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#testimonials">Отзывы</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero">
+      <h2>Мы создаём IT-решения для бизнеса</h2>
+      <p>Делаем сайты, автоматизацию и поддержку ваших проектов.</p>
+      <a href="#contact" class="btn">Связаться с нами</a>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Наши услуги</h2>
+      <div class="cards">
+        <div class="card fade-in">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Разработка сайтов</h3>
+          <p>Создаём современные, быстрые и удобные сайты под ключ.</p>
+        </div>
+        <div class="card fade-in">
+          <i class="fas fa-network-wired"></i>
+          <h3>IT-инфраструктура</h3>
+          <p>Настройка серверов, сетей и обеспечение кибербезопасности.</p>
+        </div>
+        <div class="card fade-in">
+          <i class="fas fa-headset"></i>
+          <h3>Техподдержка</h3>
+          <p>Круглосуточная поддержка ваших проектов и систем.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Наши проекты</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item slide-in"><img src="https://source.unsplash.com/400x250/?technology" alt="Project 1"></div>
+        <div class="portfolio-item slide-in"><img src="https://source.unsplash.com/400x250/?business" alt="Project 2"></div>
+        <div class="portfolio-item slide-in"><img src="https://source.unsplash.com/400x250/?software" alt="Project 3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2 class="section-title">Отзывы клиентов</h2>
+      <div class="testimonials">
+        <blockquote class="fade-in">“Отличная команда! Наш сайт сделали быстро и качественно.” — Иван</blockquote>
+        <blockquote class="fade-in">“Поддержка всегда на связи. Настоящие профессионалы.” — Алина</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Связаться с нами</h2>
+      <form class="contact-form fade-in">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="email" placeholder="Ваш email" required>
+        <textarea placeholder="Ваше сообщение" required></textarea>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 IT Company. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
